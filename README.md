@@ -48,26 +48,8 @@ Classicly its a two player game but we are implementing a three player version.
 ```
 This function takes a point on the board (point) and an empty Set (group) and recursively adds all of the points that are connected to that point, and to points connected to that point, and have pieces of the same color. Because group is being mutated, we don't need to return anything. 
 
-## Things Accomplished Over the Weekend
-
-* Game Logic
-* Wireframing
-* Half of splash page
-* Almost done with styling on game page
 
 ## Group Members and Work Breakdown
 * Wesley Arrington
-	* Saturday: Wireframing and Recact components
-	*	Sunday: React components abd websocktes
-	* Monday : Chat
-	* Tuesday : Synching work together, presentation components.
 * Kevin Chou
-	* Saturday: Game logic
-	*	Sunday: Game logic and backend
-	* Monday : Backend
-	* Tuesday : Synching work together, presentation 
 * Jason Shoemaker
-	* Saturday: Game logic
-	*	Sunday: Game logic and backend
-	* Monday : Backend
-	* Tuesday : Synching work together, presentation 
