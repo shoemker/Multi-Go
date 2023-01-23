@@ -28,14 +28,14 @@ export default class ChatBox extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        const socket = io('https://multi-go.herokuapp.com');
+        const socket = io('https://multi-go.onrender.com');
 
         socket.emit("sendingMessage", { body: this.state.newMessage, author: this.props.currentUser.email});
         this.setState({ newMessage: ""})
     }
 
     componentDidMount() {
-        const socket = io('https://multi-go.herokuapp.com');
+        const socket = io('https://multi-go.onrender.com');
         socket.on("receiveMessage", (data) => {
 
             this.setState({ 
