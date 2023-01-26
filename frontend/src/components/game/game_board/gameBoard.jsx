@@ -85,7 +85,7 @@ class GameBoard extends Component {
         this.canvas1 = document.getElementById('canvas');
         this.ctx = this.canvas1.getContext('2d');
 				
-        const socket = io('https://multi-go.herokuapp.com');
+        const socket = io('https://multi-go.onrender.com');
         socket.on("receiveMove", (data) => {
             // sessionStorage
             // kc check gameid from websockets with gameid from sessionStorage
@@ -347,7 +347,7 @@ class GameBoard extends Component {
             });
 
             // websocket communication
-            const socket = io('https://multi-go.herokuapp.com');
+            const socket = io('https://multi-go.onrender.com');
             socket.emit("sendingMove", {
                 message: "moved",
                 gameId: this.props.game.id,

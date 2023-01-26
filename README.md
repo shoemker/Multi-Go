@@ -1,4 +1,4 @@
-[Multi-Go](https://multi-go.herokuapp.com/#/)
+[Multi-Go](https://multi-go.onrender.com)
 
 # Multi-Go
 

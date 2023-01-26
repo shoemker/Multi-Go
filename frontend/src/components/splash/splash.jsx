@@ -53,7 +53,7 @@ export default class Splash extends Component {
         // compoenentDidMount runs once after render
         this.props.getValidGames();
         
-        const socket = io('https://multi-go.herokuapp.com');
+        const socket = io('https://multi-go.onrender.com');
 
         // kc: there are 2 places where this receives emits.
         // whenever a user creates a game (non demo) & joins a game

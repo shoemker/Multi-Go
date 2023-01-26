@@ -40,7 +40,7 @@ export default class LobbyRow extends Component {
             this.props.joinGame(data).then((res) => {
 
                 // websocket communication
-                const socket = io('https://multi-go.herokuapp.com');
+                const socket = io('https://multi-go.onrender.com');
                 socket.emit("joinGame", {
                     message: "new player has joined the game",
                     id: res.game._id,
